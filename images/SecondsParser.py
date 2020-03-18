@@ -34,7 +34,7 @@ for i in range(len(maxes)):
 #prunning the lower peaks
 for i in range(len(maxes)):
     if maxes[i]<=150:
-        maxes[i]=75
+        maxes[i]=0   #set to zero
 
 
 # AT THIS POINT MAXES HOLDS ALL MAXES FOR EACH SECOND (ALL ROWS IN CHUNKS OF 4))
